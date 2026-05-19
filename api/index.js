@@ -3,7 +3,7 @@ module.exports = async (req, res) => {
   // ==============================
   // TARGET WEBSITE
   // ==============================
-  const shopifyDomain = "applyjobs247.onlinejobhelp.com";
+  const shopifyDomain = "ruwmqs-uq.myshopify.com";
   const proxyHost = req.headers.host;
 
   const targetURL = `https://${shopifyDomain}${req.url}`;
